@@ -14,7 +14,6 @@ if(UNIX AND NOT APPLE)
     catkin_package(
         LIBRARIES ${PROJECT_NAME}
         INCLUDE_DIRS include
-        DEPENDS rt pthread
     )
 else()
     # Otherwise normal call
